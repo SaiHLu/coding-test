@@ -38,6 +38,7 @@
 .porfolio .video {
   margin-top: 38px;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .porfolio .video img {
@@ -76,6 +77,10 @@
   .porfolio-center .about {
     width: 38em;
     line-height: 1.5rem;
+  }
+
+  .porfolio .video {
+    margin-bottom: 48px;
   }
 
   .porfolio .status {
