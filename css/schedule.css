@@ -1,0 +1,28 @@
+.schedule {
+  margin-top: 28px;
+}
+
+.schedule .header {
+  text-align: center;
+}
+
+.schedule .header .title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.schedule .header .subtitle {
+  font-size: 0.6rem;
+}
+
+.schedule .schedule-content .detail {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.schedule .schedule-content .detail:last-child {
+  margin-bottom: 40px;
+}

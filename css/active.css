@@ -1,0 +1,68 @@
+.active {
+  margin-top: 48px;
+}
+
+.active .header {
+  text-align: center;
+}
+
+.active .header .title {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.active .header .subtitle {
+  letter-spacing: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.active .video {
+  margin-top: 28px;
+  width: 100%;
+}
+
+.active .video img {
+  width: 100%;
+}
+
+.active .video .header {
+  margin-top: 14px;
+  text-align: left;
+}
+
+.active .video .header .video-title,
+.video-subtitle {
+  font-weight: bold;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.active .video .video-content {
+  line-height: 1.5em;
+  margin-top: 18px;
+}
+
+.active .video .video-closing-content p {
+  font-weight: 600;
+  margin-top: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+/* .active .button {
+  background-color: #ccc;
+  width: 40%;
+  margin: 38px auto;
+  border-radius: 4px;
+}
+
+.active .button a {
+  display: block;
+  opacity: 0.6;
+  padding: 10px 8px;
+  text-decoration: none;
+  color: #000;
+} */

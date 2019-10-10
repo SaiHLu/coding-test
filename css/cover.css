@@ -1,0 +1,48 @@
+.cover {
+  margin-top: 40px;
+}
+
+.cover .header {
+  text-align: center;
+}
+
+.cover .header .title {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+.cover .header .subtitle {
+  font-size: 0.8rem;
+}
+
+.cover .cover-img {
+  margin-top: 38px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover .cover-img .img {
+  width: 42%;
+}
+
+.cover .cover-img .img img {
+  width: 100%;
+}
+
+.cover .cover-img .img .cover-title {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-top: 6px;
+  display: block;
+}
+
+.cover .cover-img .img .line {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  width: 34px;
+  display: block;
+  height: 2px;
+  background: #000;
+  opacity: 0.6;
+}

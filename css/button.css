@@ -1,0 +1,14 @@
+.button-primary {
+  background-color: #ccc;
+  width: 40%;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+.button-primary a {
+  display: block;
+  opacity: 0.6;
+  padding: 10px 8px;
+  text-decoration: none;
+  color: #000;
+}
