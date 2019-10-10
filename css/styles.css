@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttc");
+}
+
+@font-face {
+  font-family: "HVD BLACK";
+  src: url("../fonts/HVD\ FONTS\ -\ BRANDONGROTESQUE-BLACK.OTF");
+}
+
+@font-face {
+  font-family: "HVD BOLD";
+  src: url("../fonts/HVD\ FONTS\ -\ BRANDONGROTESQUE-BOLD.OTF");
+}
+
+*,
+body {
+  font-family: "Helvetica", "HVD BLACK", "HVD BOLD";
+}

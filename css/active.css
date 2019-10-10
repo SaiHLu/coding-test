@@ -47,7 +47,8 @@
 
 .active .video .video-closing-content p {
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 24px;
+  margin-bottom: 32px;
   padding-bottom: 8px;
   border-bottom: 1px solid #c2c2c2;
 }
