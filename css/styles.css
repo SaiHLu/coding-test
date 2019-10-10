@@ -17,3 +17,13 @@
 body {
   font-family: "Helvetica", "HVD BLACK", "HVD BOLD";
 }
+
+.content {
+  padding: 30px 20px;
+}
+
+@media only screen and (min-width: 780px) {
+  .content {
+    padding: 30px 6%;
+  }
+}

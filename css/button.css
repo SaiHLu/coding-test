@@ -1,6 +1,6 @@
 .button-primary {
   background-color: #ccc;
-  width: 40%;
+  width: 45%;
   margin: 10px auto;
   border-radius: 4px;
 }
@@ -11,4 +11,10 @@
   padding: 10px 8px;
   text-decoration: none;
   color: #000;
+}
+
+@media only screen and (min-width: 780px) {
+  .button-primary {
+    width: 12.2%;
+  }
 }

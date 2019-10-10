@@ -84,7 +84,7 @@
 
   .heading-img .desktop-image {
     display: block;
-    width: 98%;
+    width: 96%;
   }
 
   .heading-img .desktop-image img {
@@ -95,9 +95,13 @@
     /* object-fit: cover; */
   }
 
+  .heading .heading-img {
+    overflow-x: hidden;
+  }
+
   .heading .heading-img .icon {
     position: absolute;
-    left: 98%;
+    left: 96%;
     top: 1%;
   }
 
@@ -114,8 +118,8 @@
     margin-top: 0;
     position: absolute;
     font-size: 3rem;
-    top: 20%;
-    left: 26%;
+    top: 16%;
+    left: 12%;
     letter-spacing: 4px;
   }
 
@@ -140,8 +144,8 @@
     text-orientation: mixed;
     font-size: 1em;
     position: absolute;
-    right: 0.8%;
+    right: 1.5%;
     bottom: 0;
-    top: 54%;
+    top: 30%;
   }
 }

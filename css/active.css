@@ -67,3 +67,45 @@
   text-decoration: none;
   color: #000;
 } */
+
+@media only screen and (min-width: 780px) {
+  .active .header .title {
+    font-size: 3.5rem;
+  }
+
+  .active .header .subtitle {
+    font-size: 1rem;
+    letter-spacing: 30px;
+    margin-left: 30px;
+  }
+
+  .active .video {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .active .video .poster-image {
+    width: 50%;
+  }
+
+  .active .video .poster-image img {
+    width: 100%;
+  }
+
+  .active .video .poster-content {
+    width: 48%;
+  }
+
+  .active .video .poster-content .header {
+    margin-top: 0;
+  }
+
+  .active .video .poster-content .video-content {
+    margin-top: 78px;
+    margin-bottom: 112px;
+  }
+
+  .active .video .poster-content .video-content p {
+    line-height: 1.8rem;
+  }
+}

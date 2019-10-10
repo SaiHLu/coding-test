@@ -20,18 +20,26 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .cover .cover-img .img {
   width: 42%;
+  height: 120px;
 }
 
 .cover .cover-img .img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover .cover-img .img:last-child {
+  display: none;
 }
 
 .cover .cover-img .img .cover-title {
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   margin-top: 6px;
   display: block;
@@ -45,4 +53,23 @@
   height: 2px;
   background: #000;
   opacity: 0.6;
+}
+
+@media only screen and (min-width: 780px) {
+  .cover .cover-img .img:last-child {
+    display: block;
+  }
+
+  .cover .cover-img .img {
+    height: 220px;
+    width: 22%;
+  }
+
+  .cover .cover-img .img .cover-title {
+    display: none;
+  }
+
+  .cover .cover-img .img .line {
+    margin-top: 32px;
+  }
 }

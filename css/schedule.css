@@ -15,14 +15,76 @@
   font-size: 0.6rem;
 }
 
+.schedule .header .schedule-type {
+  display: none;
+}
+
 .schedule .schedule-content .detail {
   margin-top: 22px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule .schedule-content .detail .detail-time {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 8px;
+}
+
+.schedule .schedule-content .detail .detail-type {
+  display: none;
 }
 
 .schedule .schedule-content .detail:last-child {
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 780px) {
+  .schedule {
+    margin-top: 48px;
+  }
+
+  .schedule .header .title {
+    font-size: 2.2rem;
+  }
+
+  .schedule .header .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .schedule .header .schedule-type {
+    display: block;
+    width: 66%;
+    margin: 30px auto 48px auto;
+  }
+
+  .schedule .header .schedule-type ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+  }
+
+  .schedule .schedule-content .detail {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+  }
+
+  .schedule .schedule-content .detail .detail-time .name {
+    margin-left: 100px;
+  }
+
+  .schedule .schedule-content .detail .detail-type {
+    display: block;
+    width: 180px;
+  }
+
+  .schedule .schedule-content .detail .detail-type .line {
+    border-left: 2px solid #ccc;
+    padding: 5px;
+  }
+
+  .schedule .schedule-content .detail .detail-type .type {
+    margin-right: 70px;
+  }
 }
