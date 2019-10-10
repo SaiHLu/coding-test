@@ -1,12 +1,22 @@
 .heading {
-  height: 300px;
+  /* height: 300px; */
 }
 
-.heading-img {
-  background-image: url("../assets/shinpeita2018may.jpg");
-  background-position: center;
-  background-size: cover;
+.heading .copyright {
+  display: none;
+}
+
+.heading-img .mobile-image {
   height: 100%;
+  width: 100%;
+}
+
+.heading-img .mobile-image img {
+  width: 100%;
+}
+
+.heading-img .desktop-image {
+  display: none;
 }
 
 /* .icon img {
@@ -18,8 +28,12 @@
 } */
 
 .heading .heading-img .icon {
+  position: absolute;
+  top: 1%;
+  left: 1%;
   display: flex;
   flex-direction: column;
+  width: 40px;
 }
 
 .heading .heading-img .icon span {
@@ -42,9 +56,12 @@
 
 .heading p {
   font-weight: bolder;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-top: 48px;
   margin-left: 14px;
+  position: absolute;
+  top: 8%;
+  left: 1%;
 }
 
 .social {
@@ -58,4 +75,73 @@
   height: 20px;
   width: auto;
   padding: 8px 20px;
+}
+
+@media only screen and (min-width: 780px) {
+  .heading-img .mobile-image {
+    display: none;
+  }
+
+  .heading-img .desktop-image {
+    display: block;
+    width: 98%;
+  }
+
+  .heading-img .desktop-image img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+  }
+
+  .heading .heading-img .icon {
+    position: absolute;
+    left: 98%;
+    top: 1%;
+  }
+
+  .heading .heading-img .icon span {
+    width: 28px;
+    opacity: 0.6;
+  }
+
+  .heading .heading-img .icon span:last-child {
+    margin-top: 10px;
+  }
+
+  .heading .heading-img p {
+    margin-top: 0;
+    position: absolute;
+    font-size: 3rem;
+    top: 20%;
+    left: 26%;
+    letter-spacing: 4px;
+  }
+
+  .heading .social {
+    width: 60px;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .heading .social img {
+    margin-top: 12px;
+  }
+
+  .heading .copyright {
+    display: block;
+  }
+
+  .heading .copyright p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1em;
+    position: absolute;
+    right: 0.8%;
+    bottom: 0;
+    top: 54%;
+  }
 }
